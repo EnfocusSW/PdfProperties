@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Object>
+    <ElementFields>
+        <Name Editor="hide" Type="string">PdfProperties</Name>
+        <DisplayName Editor="hide" Type="string">PdfProperties</DisplayName>
+        <Version Editor="hide" Type="number">1</Version>
+        <Keywords Editor="hide" Type="string"/>
+        <Tooltip Editor="hide" Type="string"/>
+        <IncomingConnections Editor="hide" RequireAtLeastOne="Yes">Yes</IncomingConnections>
+        <OutgoingConnections DetailedInfo="" Editor="hide" RequireAtLeastOne="Yes">Unlimited</OutgoingConnections>
+        <ConnectionType Editor="hide">Move</ConnectionType>
+        <FunctionsNodeJSScript Editor="hide"/>
+        <ExecutionMode Editor="hide">Concurrent</ExecutionMode>
+        <NumberOfSlots Editor="hide">Default</NumberOfSlots>
+        <ExecutionGroup Editor="hide"/>
+        <PerformanceTuning Editor="hide">No</PerformanceTuning>
+        <IdleAfterJob Editor="hide">0</IdleAfterJob>
+        <PositionInElementPane Editor="hide">Configurators</PositionInElementPane>
+        <SubcategoryInElementPane Editor="hide">&lt;ValueDescription Type=&quot;stringlist&quot;&gt;&lt;Value&gt;Custom&lt;/Value&gt;&lt;/ValueDescription&gt;</SubcategoryInElementPane>
+        <DispositionInElementPane Editor="hide" Type="number"/>
+        <Description Editor="hide" Type="string"/>
+        <Compatibility Editor="hide" Type="string"/>
+        <SupportInfo Editor="hide" Type="string"/>
+        <AppDiscovery Editor="hide" Type="string"/>
+        <Connections Editor="hide" Type="string"/>
+        <SwitchModule Editor="hide" Type="string"/>
+        <ObsoleteProperties Editor="hide" Type="string"/>
+        <ObsoleteConnectionProperties Editor="hide" Type="string"/>
+        <unit Default="Millimeters" DetailedInfo="" Editor="inline;sltextwithvar;scriptexp" LocalizedTagName="Unit" Subtype="inline" Tooltip="" Type="enum:Points;Millimeters;Inches" UserDefined="true" Validation="Standard">Millimeters</unit>
+        <decimals Default="2" DetailedInfo="" Editor="inline;sltextwithvar;scriptexp" LocalizedTagName="Decimals" Subtype="inline" Tooltip="" Type="number" UserDefined="true" Validation="Standard">2</decimals>
+        <datasetName Default="PdfProperties" DetailedInfo="" Editor="inline;sltextwithvar;scriptexp" LocalizedTagName="Dataset name" Subtype="inline" Tooltip="" Type="string" UserDefined="true" Validation="Standard">PdfProperties</datasetName>
+    </ElementFields>
+    <ConnectionFields/>
+    <ExtraProperties/>
+</Object>

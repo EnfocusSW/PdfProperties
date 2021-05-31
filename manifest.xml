@@ -1,0 +1,14 @@
+
+<Manifest>
+    <ScripterInstanceName>PdfProperties</ScripterInstanceName>
+    <SwitchVersion>21.0</SwitchVersion>
+    <ScriptPackageFormatVersion>1.0</ScriptPackageFormatVersion>
+    <ScriptPasswordProtected>No</ScriptPasswordProtected>
+    <ScriptPackageType>Script</ScriptPackageType>
+    <ScriptDeclarationFile>PdfProperties.xml</ScriptDeclarationFile>
+    <ScriptProgramFiles>
+        <ScriptProgramFile ScriptLanguage="NodeJSScript">main.ts</ScriptProgramFile>
+    </ScriptProgramFiles>
+    <ScriptIconFile>PdfProperties.png</ScriptIconFile>
+    <LocalizationItems/>
+</Manifest>
