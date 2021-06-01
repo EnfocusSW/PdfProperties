@@ -7,7 +7,6 @@ async function jobArrived(s: Switch, flowElement: FlowElement, job: Job) {
     let unit = await (await flowElement.getPropertyStringValue("unit")).toString();
     let decimals = parseInt(await (await flowElement.getPropertyStringValue("decimals")).toString());
 
-
     try {
         let pdf = PdfDocument.open(jobPath);
         let pdfProperties: Record<string, any> = {};

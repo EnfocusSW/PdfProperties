@@ -6,7 +6,7 @@
 logs/
 test/
 
-# ignore ALL .log files 
+# ignore ALL .log files
 *.log
 
 # macOS Files
