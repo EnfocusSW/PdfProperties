@@ -103,19 +103,15 @@ async function jobArrived(s, flowElement, job) {
     }
 }
 function convert(unit, decimals, value) {
+    let roundMultiplier = Math.pow(10, decimals);
     if (unit == "Points") {
-        let roundMultiplier = Math.pow(10, decimals);
         return Math.round(value * roundMultiplier) / roundMultiplier;
     }
     else if (unit == "Millimeters") {
-        let convertedValue = value / 72 * 25.4;
-        let roundMultiplier = Math.pow(10, decimals);
-        return Math.round(convertedValue * roundMultiplier) / roundMultiplier;
+        return Math.round(value / 72 * 25.4 * roundMultiplier) / roundMultiplier;
     }
-    else {
-        let convertedValue = value / 72;
-        let roundMultiplier = Math.pow(10, decimals);
-        return Math.round(convertedValue * roundMultiplier) / roundMultiplier;
+    else { // Inches
+        return Math.round(value / 72 * roundMultiplier) / roundMultiplier;
     }
 }
 //# sourceMappingURL=main.js.map

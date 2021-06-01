@@ -89,16 +89,12 @@ async function jobArrived(s: Switch, flowElement: FlowElement, job: Job) {
 }
 
 function convert(unit: string, decimals: number, value: number) {
+    let roundMultiplier = Math.pow(10, decimals);
     if (unit == "Points") {
-        let roundMultiplier = Math.pow(10, decimals);
         return Math.round(value * roundMultiplier) / roundMultiplier;
     } else if (unit == "Millimeters") {
-        let convertedValue = value / 72 * 25.4;
-        let roundMultiplier = Math.pow(10, decimals);
-        return Math.round(convertedValue * roundMultiplier) / roundMultiplier;
-    } else {
-        let convertedValue = value / 72;
-        let roundMultiplier = Math.pow(10, decimals);
-        return Math.round(convertedValue * roundMultiplier) / roundMultiplier;
+        return Math.round(value / 72 * 25.4 * roundMultiplier) / roundMultiplier;
+    } else { // Inches
+        return Math.round(value / 72 * roundMultiplier) / roundMultiplier;
     }
 }
