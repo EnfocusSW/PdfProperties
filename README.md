@@ -8,4 +8,5 @@ More info on using TypeScript and script folders in the advanced training:
 ### Concepts used in this example:
 - [PdfDocument](https://www.enfocus.com/manuals/DeveloperGuide/SW/21/home.html#en-us/common/swscr/reference/re_swscr_pdfdocumentclass_methods.html) and [PdfPage](https://www.enfocus.com/manuals/DeveloperGuide/SW/21/home.html#en-us/common/swscr/reference/re_swscr_pdfpage_methods.html) classes introduced in Switch 2021 Spring
 - create dataset
+- use traffic light connections
 - use Node.js packages

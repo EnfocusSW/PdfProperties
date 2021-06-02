@@ -8,7 +8,7 @@
         <Tooltip Editor="hide" Type="string"/>
         <IncomingConnections Editor="hide" RequireAtLeastOne="Yes">Yes</IncomingConnections>
         <OutgoingConnections DetailedInfo="" Editor="hide" RequireAtLeastOne="Yes">Unlimited</OutgoingConnections>
-        <ConnectionType Editor="hide">Move</ConnectionType>
+        <ConnectionType Editor="hide">TrafficLight</ConnectionType>
         <FunctionsNodeJSScript Editor="hide"/>
         <ExecutionMode Editor="hide">Concurrent</ExecutionMode>
         <NumberOfSlots Editor="hide">Default</NumberOfSlots>
@@ -30,6 +30,9 @@
         <decimals Default="2" DetailedInfo="" Editor="inline;sltextwithvar;scriptexp" LocalizedTagName="Decimals" Subtype="inline" Tooltip="" Type="number" UserDefined="true" Validation="Standard">2</decimals>
         <datasetName Default="PdfProperties" DetailedInfo="" Editor="inline;sltextwithvar;scriptexp" LocalizedTagName="Dataset name" Subtype="inline" Tooltip="" Type="string" UserDefined="true" Validation="Standard">PdfProperties</datasetName>
     </ElementFields>
-    <ConnectionFields/>
+    <ConnectionFields>
+        <Success AvailableFor="Data" Default="Yes" Editor="inline" LocalizedTagName="Success out" Type="bool">Yes</Success>
+        <Error AvailableFor="Data" Default="Yes" Editor="inline" LocalizedTagName="Error out" Type="bool">Yes</Error>
+    </ConnectionFields>
     <ExtraProperties/>
 </Object>
